@@ -2,30 +2,29 @@ nav .navbar-brand
 {
     /* size for brand */
     font-size: xx-large;
-    color: #537fbe;
+    color: 'green';
 }
 
 .navbar 
 {
-  position:absolute;
-  
-}
-
-.background
-{
-  position:absolute;
-  z-index: -1;
+  z-index:1;
 }
 
 
-html, 
-body {
+
+svg
+ {
     height: 100vh;
+    width: 100vw;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
 }
 
-.blue
+.green
 {
-    color: red;
+    color: green;
 }
 
 /* Remove numbering for list items */
