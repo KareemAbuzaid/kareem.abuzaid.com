@@ -1,0 +1,144 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+    color: #537fbe;
+}
+
+/* colors for brand */
+.blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+#create-btn {
+    width: 130px;
+    text-weight: bold;
+    margin-left: 800px;
+    margin-bottom: 20px;
+
+}
+
+#send-btn {
+    width: 130px;
+    text-weight: bold;
+}
+
+#open-channel-btn {
+    width: 130px;
+    text-weight: bold;
+    margin-left: 800px;
+    margin-bottom: 20px;
+
+}
+
+.left {
+    text-align: left;
+    margin-left: 30px;
+}
+
+ /* Chat containers */
+.message-container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Clear floats */
+.message-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.message-container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.message-container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* Style the username */
+.message-container username {
+  float: left;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
+
+#message {
+    box-shadow: 0 2px 0 #e6e6e6;
+    height: 40px;
+    padding-left: 10px;
+    width: 650px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+/* Remove numbering for list items */
+ol li {
+    list-style-type: none;
+}
