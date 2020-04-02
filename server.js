@@ -29,7 +29,6 @@ const drawBackground = () => {
   const w = '2000';
   const h = '650';
   const colors = [
-    'grey',
     'black',
   ];
 
@@ -45,24 +44,18 @@ const drawBackground = () => {
   d3.select(dom)
     .select('div')
     .select('svg')
-    .selectAll('circle')
-    .data(new Array(50))
-    .enter()
     .append('circle')
-    .attr('cx', d => Math.floor((Math.random() * w) + 1))
-    .attr('cy', d => Math.floor((Math.random() * h) + 1))
+    .attr('cx', '60px')
+    .attr('cy', '100px')
     .attr('r', '25px')
     .attr('fill', d => colors[Math.floor(Math.random() * colors.length)])
 
   d3.select(dom)
     .select('div')
     .select('svg')
-    .selectAll('rect')
-    .data(new Array(50))
-    .enter()
     .append('rect')
-    .attr('x', d => Math.floor((Math.random() * w) + 1))
-    .attr('y', d => Math.floor((Math.random() * h) + 1))
+    .attr('x', '120px')
+    .attr('y', '75px')
     .attr('height', '50px')
     .attr('width', '50px')
     .attr('fill', d => colors[Math.floor(Math.random() * colors.length)])     
@@ -75,6 +68,8 @@ app.route('/')
     res.render('index', {
       background: drawBackground(),
       title: 'Home',
+      firstname: 'Kareem',
+      lastname: 'Abuzaid',
     });
   });
 

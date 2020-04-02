@@ -8,6 +8,12 @@ nav .navbar-brand
 .navbar 
 {
   z-index:1;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.nav-link 
+{
+    color: black;    
 }
 
 
@@ -22,12 +28,27 @@ svg
     z-index:0;
 }
 
-.green
+.black
 {
-    color: green;
+    color: black;
 }
 
 /* Remove numbering for list items */
 ol li {
     list-style-type: none;
 }
+
+.name {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Major Mono Display', monospace;
+    background-color: white;
+    margin: -100px 0 0 -150px;
+  }
+ 
