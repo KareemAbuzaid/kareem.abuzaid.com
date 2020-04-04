@@ -4,6 +4,7 @@ const express = require('express');
 const d3      = require('d3');
 const JSDOM   = require('jsdom').JSDOM;
 const path    = require('path');
+const favicon = require('serve-favicon');
 
 
 
@@ -12,6 +13,8 @@ const app = express();
 
 app.set('view engine', 'pug'); 
 app.set("views", path.join(__dirname, "views"));
+
+app.use(favicon(__dirname + '/static/images/favicon.ico'));
 
 const drawBackground = () => {
   
@@ -59,7 +62,6 @@ const drawBackground = () => {
     .attr('height', '50px')
     .attr('width', '50px')
     .attr('fill', d => colors[Math.floor(Math.random() * colors.length)])     
-  //debugger;
   return dom.innerHTML;
 }
 

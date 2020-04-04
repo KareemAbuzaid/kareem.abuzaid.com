@@ -8,7 +8,7 @@ nav .navbar-brand
 .navbar 
 {
   z-index:1;
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav-link 
