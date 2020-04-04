@@ -47,6 +47,7 @@ ol li {
     left: 50%;
     text-align: center;
     font-size: 400%;
+    color: black;
     font-family: 'Major Mono Display', monospace;
     background-color: white;
     margin: -100px 0 0 -150px;
