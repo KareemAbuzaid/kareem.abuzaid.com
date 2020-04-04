@@ -1,25 +1,19 @@
-nav .navbar-brand
-{
+nav .navbar-brand {
     /* size for brand */
     font-size: xx-large;
     color: 'green';
 }
 
-.navbar 
-{
+.navbar {
   z-index:1;
   font-family: 'Roboto', sans-serif;
 }
 
-.nav-link 
-{
+.nav-link {
     color: black;    
 }
 
-
-
-svg
- {
+svg {
     height: 100vh;
     width: 100vw;
     position:absolute;
@@ -28,8 +22,7 @@ svg
     z-index:0;
 }
 
-.black
-{
+.black {
     color: black;
 }
 
@@ -53,3 +46,9 @@ ol li {
     margin: -100px 0 0 -150px;
   }
  
+.content {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20vh;
+    margin-left: 4vw;
+    width: 40vw;
+}
