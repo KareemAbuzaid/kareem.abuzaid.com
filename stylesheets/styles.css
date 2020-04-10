@@ -1,24 +1,17 @@
-nav .navbar-brand {
-    /* size for brand */
-    font-size: xx-large;
-    color: 'green';
-}
+
 
 .navbar {
-  z-index:1;
   font-family: 'Roboto', sans-serif;
+  font-size: larger;
+  
 }
 
 .nav-link {
-    color: black;    
+    color: black;
 }
 
 svg {
-    height: 100vh;
-    width: 100vw;
-    position:absolute;
-    top:0;
-    left:0;
+    position: fixed;
 }
 
 .black {
@@ -31,11 +24,11 @@ ol li {
 }
 
 .name {
-    position: absolute;
+    position: relative;
     width: 300px;
     height: 200px;
-    top: 50%;
-    left: 50%;
+    top: 50vh;
+    left: 50vw;
     text-align: center;
     font-size: 400%;
     color: black;
@@ -48,13 +41,27 @@ ol li {
     font-family: 'Roboto', sans-serif;
     margin-top: 20vh;
     margin-left: 4vw;
-    font-size: 16px;
+    font-size: 30px;
 }
  
   @media only screen and (min-width: 600px) {  
     .content {
         font-size: 20px;
     }
+    .name {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        font-size: 400%;
+        color: black;
+        font-family: 'Major Mono Display', monospace;
+        background-color: white;
+        margin: -100px 0 0 -150px;
+      }
+
 }
 footer {
     position: absolute;
