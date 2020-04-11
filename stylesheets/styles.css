@@ -2,8 +2,8 @@
 
 .navbar {
   font-family: 'Roboto', sans-serif;
-  font-size: larger;
-  
+  font-size: larger;  
+  color: black;
 }
 
 .nav-link {
@@ -37,13 +37,10 @@ ol li {
     font-family: 'Roboto', sans-serif;
     margin-top: 20vh;
     margin-left: 4vw;
-    font-size: 30px;
+    font-size: 20px;
 }
  
   @media only screen and (min-width: 600px) {  
-    .content {
-        font-size: 20px;
-    }
     .name {
         position: absolute;
         width: 300px;
