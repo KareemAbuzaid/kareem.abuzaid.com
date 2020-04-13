@@ -16,6 +16,9 @@ nav div ol li a {
   color: black;
   font-family: 'Major Mono Display', monospace;
   background-color: white;
+  display: relative;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .content {
