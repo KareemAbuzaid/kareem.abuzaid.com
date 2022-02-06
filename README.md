@@ -1,2 +1,2 @@
-**kareemabuzaid.com**- My personal website
+**kareemabuzaid.com**
 ------

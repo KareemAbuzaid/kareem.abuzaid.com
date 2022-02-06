@@ -55,5 +55,9 @@ nav div ol li a {
     color: black;
   }
 
-
-
+@media screen and (max-width: 480px) {
+    img {
+         width: 100%;
+         margin 20px 0px 20px 0px;
+    }
+}
