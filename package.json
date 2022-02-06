@@ -13,10 +13,11 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "d3": "^5.15.1",
-    "serve-favicon": "2.5.0",
     "express": "^4.14.0",
     "jsdom": "^16.2.2",
-    "pug": "^3.0.1"
+    "moment": "^2.29.1",
+    "pug": "^3.0.2",
+    "serve-favicon": "2.5.0"
   },
   "keywords": [
     "personal",
